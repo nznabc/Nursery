@@ -8,7 +8,7 @@
         public ClassInfo ClassInfo { get; set; }
         public User Author { get; set; }
 
-        public ICollection<Photos> Photos { get; set; }
+        public ICollection<Photo> Photos { get; set; }
 
     }
 }
